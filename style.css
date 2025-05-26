@@ -1,53 +1,21 @@
-/* Reset + Base styles */
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
   background-color: #f4f4f4;
   color: #333;
   text-align: center;
-  line-height: 1.6;
 }
 
-/* Header */
-header {
-  background: #222;
-  color: white;
-  padding: 1.5rem 1rem;
-}
-
-header h1 {
-  margin: 0;
-}
-
-/* Main Content */
 main {
+  width: 100%;
   max-width: 800px;
   margin: 2rem auto;
-  padding: 0 1rem;
+  padding: 1rem;
 }
 
-section {
-  margin-bottom: 2rem;
-}
-
-/* YouTube Logo Button */
 .yt-logo {
   width: 100px;
-  height: auto;
   display: block;
-  margin: 1.5rem auto 0;
-  transition: transform 0.3s ease;
-}
-
-.yt-logo:hover {
-  transform: scale(1.1);
-}
-
-/* Footer */
-footer {
-  background: #222;
-  color: #aaa;
-  padding: 1rem;
-  font-size: 0.9rem;
+  margin: 1rem auto;
 }
