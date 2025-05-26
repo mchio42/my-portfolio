@@ -10,7 +10,34 @@
   transition: background-color 0.3s ease;
 }
 
-.btn:hover {
+.btn:hover {body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  text-align: center; /* 🔥 this centers text and inline elements */
+}
+
+section {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  text-align: center; /* just to be safe */
+}
+
+.yt-logo {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 1rem auto; /* centers image */
+  transition: transform 0.3s ease;
+}
+
+.yt-logo:hover {
+  transform: scale(1.1);
+}
+
   background-color: #cc0000;
   /* YouTube Logo Button */
 .yt-logo {
